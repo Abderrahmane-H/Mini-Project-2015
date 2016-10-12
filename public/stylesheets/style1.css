@@ -1,0 +1,277 @@
+@font-face
+{
+    font-family: LedBoard;
+    src: url("../fonts/advanced_led_board-7.ttf");
+}
+@font-face
+{
+    font-family: DigitalReadout;
+    src: url("../fonts/SFDigitalReadout-Heavy.ttf");
+}
+@font-face
+{
+    font-family: Disney;
+    src: url("../fonts/waltograph42.ttf");
+}
+*, *:before, *:after
+{0
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat;
+}
+.scoreDiv, .score
+{
+    background-color: #00120E;
+}
+.scoreDiv
+{
+    width: 900px;
+    height: 70px;
+    background-color: #00120E;
+    position: absolute;
+    top: 30;
+    left: 226px;
+    right: 208px;
+    color: white;
+    margin: auto;
+    /*height: 18px;
+    width: 800;
+    background-color: #41631B;
+    position: absolute;
+    top: 0;
+    left: 400px;*/
+}
+.score
+{
+    width : 100px;
+    height : 70px;
+    border : 2px solid #615B45;
+    font-family: LedBoard;
+    font-size: 57px;
+    color: #B5C71D;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+.score1
+{
+    /*background-color: red;*/
+    margin-left: -4px;
+    text-align: center;
+}
+.score2
+{
+    /*background-color: green;*/
+    position : absolute;
+    top : 0;
+    left : 800px;
+    margin-left: 4px;
+    text-align: center;
+}
+.centerDiv
+{
+    /*background-color: white;*/
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 700px;
+    height : 70px;
+    position : absolute;
+    border : 2px solid #615B45;
+    border-radius: 5px;
+    color : #23AC28;
+}
+#time
+{
+    width : 100px;
+    height : 70px;
+    /*background-color: gray;*/
+    position: absolute;
+    left: 245px;
+    top: 0px;
+    text-align: center;
+    font-size: 55px;
+    font-family: LedBoard;
+}
+.name
+{
+    padding-top: 10px;
+    font-family: DigitalReadout;
+    font-size: 50px;
+}
+.name1
+{
+    /*background-color : brown;*/
+    width : 100px;
+    height : 70px;
+    padding-left: 10px;
+}
+.name2
+{
+    /*background-color : blue;*/
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    width : 100px;
+    height : 70px;
+    text-align: right;
+    padding-right: 10px;
+}
+.leftPointer
+{
+    left: 143px;
+    text-align: right;
+}
+.rightPointer
+{
+    left: 451px;
+    text-align: left;
+}
+.pointer
+{
+    width:100px;
+    height:50px;
+    font-family: LedBoard;
+    font-size:70px;
+    position:absolute;
+    top: -11px;
+}
+.center{
+    width: 100%;
+    height : 100px;
+    background-color: pink;
+}
+.moroccan-child
+{
+    background-image : url(../images/moroccan-kid.png);
+    background-size: 100% 100%;
+    width: 400px;
+    height: 650px;
+}
+.xtraSmallCircle
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #B6B6B6;
+    position: absolute;
+    top: 211px;
+    left: 292Px;
+    border: #8FB1B2 solid 3px;
+}
+.smallCircle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #B6B6B6;
+    position: absolute;
+    top: 163px;
+    left: 317Px;
+    border: #8FB1B2 solid 5px;
+}
+.meduimCircle
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #B6B6B6;
+    position: absolute;
+    top: 128px;
+    left: 391Px;
+    border: #8FB1B2 solid 10px;
+}
+.circle
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #B6B6B6;
+    position: absolute;
+    top: 66px;
+    left: 496Px;
+    border: #8FB1B2 solid 23px;
+}
+.moroccan-background
+{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/moroccan.png);
+    background-size: 100% 100%;
+    opacity: 0.2;
+    border-radius: 50%;
+    position: absolute;
+    top: -41px;
+    left: -22px;
+}
+.msgWinner
+{
+    font-family: Disney;
+    font-size: 100Px;
+    top: 43px;
+    left: 63px;
+    position: absolute;
+}
+.nameWinner
+{
+    margin-top: 145px;
+    font-size: 70Px;
+}
+.scoreWinner
+{
+    margin-top: -5px;
+    font-size: 50Px;
+}
+.chronoWinner
+{
+    margin-top: -29px;
+    font-size: 50Px;
+}
+.chronoWinner, .scoreWinner, .nameWinner
+{
+    font-family: Disney;
+    text-align: center;
+}
+.btnRejouer
+{
+    width: 100px;
+    height: 100px;
+    background-color:#218F5F;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 34px;
+    padding-top: 22px;
+    font-family: Disney;
+    padding-left: 5px;
+    left: 175px;
+    background-image: url(../images/replay.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 18px;
+    cursor : hand;
+}
+.btnRejouer:hover
+{
+    background-color: rgba(33, 143, 56, 0.6);
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay h1#info{
+    color: darkgrey;
+    font-family: DigitalReadout;
+}

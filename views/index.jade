@@ -1,0 +1,43 @@
+
+html
+    head
+        meta(charset='utf-8')
+        title ronda
+        script(type="text/javascript").
+            var username ="#{username}";
+        script( src="../javascripts/chrono.js ")
+        script(type='text/javascript', src='../javascripts/css-animation2.js')
+        link(rel="styleSheet", type="text/css", href="../stylesheets/css-animation.css")
+        link(rel='stylesheet', type='text/css', href='../stylesheets/popup.css')
+        link(rel='stylesheet', type='text/css', href='../stylesheets/style1.css')
+
+
+
+
+    body(onload='show()')
+        div#overlay
+            h1#info waiting for the second player
+            img(src='../images/ajax-loader.gif')
+        // The Modal
+        #myModal.modal
+            // Modal content
+            .modal-content
+                img(src="../images/love-451a.jpg" id="moroccan-child")
+        #stage
+            //
+        .scoreDiv
+            #scorePlayer1.score.score1
+            .centerDiv
+                #namePlayer1.name.name1
+                #leftPointer.pointer.leftPointer
+                #time
+                #rightPointer.pointer.rightPointer
+                #namePlayer2.name.name2
+            #scorePlayer2.score.score2
+            
+        
+        script(src='../javascripts/socket-client.js')
+        script(src='../javascripts/jquery.min.js')
+
+
+        script(src='../javascripts/play.js')

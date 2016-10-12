@@ -1,0 +1,44 @@
+#stage 
+{
+    background-image: url(../images/board.png);
+    background-size: 100% 100%;
+    width: 1000px;
+    height: 535px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#felt 
+{
+  
+  position: relative;
+  margin: 0 0 0 200px;
+
+  /*
+  background: green;
+  background-image: -webkit-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
+  background-image: -moz-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
+  background-image: -o-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
+  background-image: -ms-repeating-linear-gradient(bottom right, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
+  background-image: repeating-linear-gradient(to top left, rgba(255,255,255,0), rgba(255,255,255,0) 80px, rgba(255,255,255,0.2) 80px, rgba(255,255,255,0.2) 150px);
+
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.4);*/
+}
+
+#felt div 
+{
+  position: absolute;
+  left: -106px;
+  top: 226px;
+  z-index: 0;
+  
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  
+  transform-style: preserve-3d;
+  
+  -webkit-transition-property: left, top, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out, ease-out, ease-in-out;
+}
